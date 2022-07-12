@@ -21,7 +21,7 @@ class Home_Page_Object:
     def load_page(self,url):
         self.driver.get(url)
         return self
-    def search_title(self, search_text):
+    def search_for_title(self, search_text):
         self.driver.find_element(By.ID, 'search').send_keys(search_text)
         search_button=self.driver.find_element(By.XPATH, '//button[@class="action search"]')
         search_button.click()
@@ -36,7 +36,7 @@ class Test_Script:
             raise Exception("No matching browsers found")
         pageObject = Home_Page_Object(driver)
         pageObject.load_home_page()
-        pageObject.search_title('quality')
+        pageObject.search_for_title('quality')
         pageObject.tear_down()
 
 def main():
