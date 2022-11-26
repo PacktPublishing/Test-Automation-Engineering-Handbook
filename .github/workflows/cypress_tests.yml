@@ -1,11 +1,17 @@
 name: Packt Cypress Tests
+
 on: [push]
+
 jobs:
-  cypress-run
-  runs-on: ubuntu-latest
-  steps:
-    - name: Checkout Code 
-      uses: actions/checkout@v3
+  cypress-run:
+    name: Packt Cypress CI/CD Demo 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code 
+        uses: actions/checkout@v3
     
-    - name: Cypress.io
-      uses: cypress-io/github-action@v2.9.7
+      - name: Cypress.io
+        uses: cypress-io/github-action@v2.9.7
+        env: 
+          DEFAULT_BRANCH: main 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
