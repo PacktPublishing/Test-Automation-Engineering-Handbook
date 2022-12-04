@@ -7,9 +7,9 @@ describe("Vist packt home page, ", () => {
   it("search for a title and and click submit", () => {
     const search_string = "quality";
     const result_string = "Filter Results ";
-    cy.get(".input-text").and("have.value", "");
-    cy.get(".input-text").type(`${search_string}`, { delay: 500 });
-    cy.get('[aria-label="Search"]').click();
+    cy.get('#__BVID__324').and("have.value", "");
+    cy.get('#__BVID__324').type(`${search_string}`, { delay: 500 });
+    cy.get('.form-inline > .btn-parent > .btn > .fa').click();
     cy.get(".filter-results").contains(result_string);
     cy.get(".reset-button", { timeout: 10000 }).should("be.disabled");
     cy.get("#packt-navbar").and("have.class", "navbar-logout");
