@@ -64,3 +64,8 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 **Manikandan Sambamurthy**
 has been a software engineer particularly focused on quality engineering efforts for over 15 years. He has helped several enterprise organizations formulate and implement their test strategies successfully. He has built and mentored diverse and smooth-functioning quality engineering teams throughout his career. Manikandan himself is a prolific tester and specializes in full stack test automation. He is a life-long learner and possesses tremendous knowledge on both front-end and back-end test technologies. He has led various continuous improvement efforts improving quality and productivity of entire software engineering teams. With his deep understanding and expertise in the quality area, he has induced considerable cost-savings across organizations through meticulous customizations of test automation frameworks.
 When he is not working on software, he loves to travel, read about science, and spend time with his family. He is an ardent sports fan currently residing in the San Francisco Bay Area.
+
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781804615492">https://packt.link/free-ebook/9781804615492 </a> </p>
